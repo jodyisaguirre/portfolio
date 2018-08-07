@@ -1,0 +1,29 @@
+body{
+  font-family: sans-serif;
+}
+
+.poster {
+  margin-left: 25%;
+  width: 630px;
+  height: 888px;
+  background-color:  rgb(165,26,30);
+  color: white;
+}
+
+.text {
+  margin-left: 10%;
+  
+}
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.circle {
+margin-left: 35%;
+margin-top: 35%;
+}
