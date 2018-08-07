@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 header {
   background: rgb(52,52,52);
   color: white;
@@ -5,11 +8,21 @@ header {
   flex-direction: row;
   justify-content: space-between;
 }
+.titles{
+  margin-left: 1em;
+  width: 40%;
+}
 nav{
   display: flex;
   align-items: center;
+  width: 60%;
 }
 nav ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+
+
 }
