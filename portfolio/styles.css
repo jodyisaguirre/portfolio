@@ -1,0 +1,15 @@
+header {
+  background: rgb(52,52,52);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
