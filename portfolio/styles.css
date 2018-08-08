@@ -29,18 +29,57 @@ nav ul {
 
 main{
   width: 100vw;
-  height: 600px;
   display: flex;
   justify-content: center;
 }
 
 .container{
   width: 90%;
-  height: 100%;
-  background: red;
+
 
 }
-.bigfoot{
+
+
+
+.images{
   display: flex;
-  
+}
+
+.images img {
+  height: 300px;
+}
+
+.images:nth-child(1){
+  width: 30%;
+}
+
+.images:nth-child(2){
+  width: 70%;
+}
+
+.articles{
+  display: flex;
+  flex-direction: row;
+
+}
+.articles img{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right:  0.5em;
+
+}
+
+.articles a {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer{
+  background: #2c2c2c;
+  color: white;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
