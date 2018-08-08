@@ -23,6 +23,17 @@ nav ul {
   justify-content: space-between;
   width: 100%;
   list-style: none;
+  background: black;
+  padding: 2em;
+}
 
+main{
+  width: 100vw;
+  height: 600px;
+}
 
+.container{
+  width: 90%;
+  height: 100%;
+  background: red;
 }
